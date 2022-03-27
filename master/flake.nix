@@ -11,6 +11,7 @@
   inputs.src-minmaxheap-master.ref   = "refs/heads/master";
   inputs.src-minmaxheap-master.owner = "stefansalewski";
   inputs.src-minmaxheap-master.repo  = "minmaxheap";
+  inputs.src-minmaxheap-master.dir   = "";
   inputs.src-minmaxheap-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
